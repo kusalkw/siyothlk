@@ -8,8 +8,8 @@ class Model_user extends CI_Model {
 
             'username' => $this->input->post('username', TRUE),
             'password' => sha1($this->input->post('password', TRUE)),
-            'email' => $this->input->post('email', TRUE)
-
+            'email' => $this->input->post('email', TRUE),
+            'memberFlag' => 1
         );
 
         return $this->db->insert('user', $data);

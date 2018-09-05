@@ -24,14 +24,14 @@ class Login extends CI_Controller {
                     'id' => $result->userId,
                     'username' => $result->username,
                     'email' => $result->email,
+                    'member_flag' => $result->memberFlag,
+                    'admin_flag' => $result->adminFlag,
                     'loggedIn' => true
 
                 );
 
                 $this->session->set_userdata($user_details);
-
                 redirect('home');
-
 
             }
             else {
@@ -42,6 +42,19 @@ class Login extends CI_Controller {
             }
 
         }
+
+    }
+
+    function user_logout() {
+
+        $this->session->unset_userdata('id');
+        $this->session->unset_userdata('username');
+        $this->session->unset_userdata('email');
+        $this->session->unset_userdata('member_flag');
+        $this->session->unset_userdata('admin_flag');
+        $this->session->unset_userdata('loggedIn');
+
+        redirect('home/login');
 
     }
 

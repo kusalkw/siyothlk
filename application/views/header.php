@@ -65,17 +65,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </form>
         <ul class="navbar-nav navbar-right mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url("index.php/home/login") ?>"> Login <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    USER
+                <a class="nav-link" href="<?php echo base_url("index.php/home/login") ?>">
+                    <?php
+                    if($this->session->userdata('username')==false) {
+                        echo "Login";
+                    }
+                    ?>
+                    <span class="sr-only">(current)</span>
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Profile</a>
-                    <a class="dropdown-item" href="#">Logout</a>
-                </div>
             </li>
+            <?php
+                if($this->session->userdata('username')) {
+                    echo "<li class=\"nav-item dropdown\">";
+                        echo "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n";
+                                echo $this->session->userdata('username');
+                        echo "</a>\n";
+                        echo "<div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n";
+                            echo "<a class=\"dropdown-item\" href=\"#\">Profile</a>\n";
+                            echo "<a class=\"dropdown-item\" href=\"" . base_url('index.php/login/user_logout');
+                            echo "\">Logout</a>\n";
+                       echo " </div>";
+                    echo "</li>";
+                }
+            ?>
         </ul>
     </div>
 </nav>
