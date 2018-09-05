@@ -1,6 +1,6 @@
 <footer class="page-footer font-small blue">
     <div class="footer-copyright text-center py-3">© 2018 Copyright:
-        <a href="https://mdbootstrap.com/bootstrap-tutorial/"> Siyoth.lk</a>
+        <a href="<?php echo base_url() ?>"> Siyoth.lk</a>
     </div>
 </footer>
 
