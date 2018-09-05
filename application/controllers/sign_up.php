@@ -19,6 +19,7 @@ class Sign_up extends CI_Controller {
             $result = $this->model_user->insert_user_data();
 
             if($result) {
+
                 $this->session->set_flashdata('msg', '<div class="alert alert-primary text-center" role="alert"> Signed Up Successfully! </div>');
                 redirect('home/login');
             }
@@ -29,5 +30,6 @@ class Sign_up extends CI_Controller {
         }
 
     }
+
 
 }

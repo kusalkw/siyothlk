@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="<?php echo base_url('index.php/home'); ?>">
         <img src="<?php echo base_url() ?>asset/images/logo_white.jpg" width="30" height="30" class="rounded-circle" alt="image">
         Siyoth.lk
     </a>
@@ -30,7 +30,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="<?php echo base_url('index.php/home'); ?>">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Bird WiKi</a>
