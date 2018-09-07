@@ -15,4 +15,8 @@ class Home extends CI_Controller {
         $this->load->view('sign_up');
     }
 
+    public function bird_wiki() {
+        $this->load->view('wiki_home');
+    }
+
 }

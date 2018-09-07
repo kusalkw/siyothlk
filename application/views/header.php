@@ -11,6 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo base_url("asset/css/style.css")?>">
 
     <title> Siyoth.lk </title>
 
@@ -33,7 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a class="nav-link" href="<?php echo base_url('index.php/home'); ?>">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Bird WiKi</a>
+                <a class="nav-link" href="<?php echo base_url('index.php/home/bird_wiki') ?>">Bird WiKi</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">News & Articles</a>
