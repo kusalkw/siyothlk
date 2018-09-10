@@ -11,7 +11,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <link rel="stylesheet" href="<?php echo base_url("asset/css/style.css")?>">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 
     <title> Siyoth.lk </title>
 
@@ -37,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a class="nav-link" href="<?php echo base_url('index.php/home/bird_wiki') ?>">Bird WiKi</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">News & Articles</a>
+                <a class="nav-link" href="<?php echo base_url('index.php/home/news_and_articles') ?>">News & Articles</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Forum</a>
@@ -64,6 +69,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
+
         <ul class="navbar-nav navbar-right mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url("index.php/home/login") ?>">

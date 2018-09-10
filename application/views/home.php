@@ -64,7 +64,7 @@
 
 <div class="hero-image">
   <div class="hero-text">
-    <h1 style="font-size:50px">Welcome to Siyoth.lk</h1>
+    <h1>Welcome to Siyoth.lk</h1>
     <p>Its all about birds</p>
       <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
   </div>
@@ -87,4 +87,4 @@
 
 
 
-<?php /*include 'footer.php'*/?>
+<?php include 'footer.php'?>

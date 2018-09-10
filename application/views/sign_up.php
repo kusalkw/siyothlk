@@ -4,17 +4,17 @@
         <h3 class="text-center m-2"> Sign Up  </h3>
         <hr>
 
-        <?php echo validation_errors(); ?>
+        <span style="color: red"><?php echo validation_errors(); ?></span>
         <?php echo form_open("sign_up/user_sign_up"); ?>
 
             <div class="form-group">
                 <label>Username</label>
-                <input type="text" class="form-control" placeholder="Enter username" name="username">
+                <input type="text" class="form-control" placeholder="Enter username" value="<?php echo set_value('username'); ?>" name="username">
             </div>
 
             <div class="form-group">
                 <label> E-Mail </label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" value="<?php echo set_value('email'); ?>" name="email">
             </div>
 
             <div class="form-group">

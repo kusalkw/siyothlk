@@ -19,4 +19,21 @@ class Home extends CI_Controller {
         $this->load->view('wiki_home');
     }
 
+    public function news_and_articles() {
+
+	    $this->load->model('Model_News_Articles');
+	    $result['news'] = $this->Model_News_Articles->get_few_news();
+	    $result['articles'] = $this->Model_News_Articles->get_few_articles();
+
+	    if($result!=false) {
+
+            $this->load->view('news_articles', $result);
+
+        }
+        else {
+            echo "Something went wrong !";
+        }
+
+    }
+
 }

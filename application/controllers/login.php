@@ -36,7 +36,7 @@ class Login extends CI_Controller {
             }
             else {
 
-                $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center" role="alert"> Wrong E-Mail or Password </div>');
+                $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center" role="alert"> Wrong Username or Password! Please try again </div>');
                 redirect('home/login');
 
             }

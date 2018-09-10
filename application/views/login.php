@@ -11,7 +11,7 @@
     <h3 class="text-center m-2"> Please Login  </h3>
     <hr>
 
-    <?php echo validation_errors(); ?>
+    <span style="color: red"><?php echo validation_errors(); ?></span>
     <?php echo form_open("login/user_login"); ?>
 
         <div class="form-group">
