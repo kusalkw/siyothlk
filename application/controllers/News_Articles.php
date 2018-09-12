@@ -36,32 +36,54 @@ class News_Articles extends CI_Controller {
     }
 
     public function add_article() {
-        $this->load->view('add_article');
+
+        $this->load->view('add_article', array('error' => ' '));
+
     }
 
     public function add_new_article() {
 
         $this->form_validation->set_rules('title', 'Title', 'required');
         $this->form_validation->set_rules('content', 'Article Content', 'required');
-        //$this->form_validation->set_rules('image', 'Image', 'trim|required|min_length[5]');
 
         if ($this->form_validation->run() == FALSE)
         {
-            $this->load->view('add_article');
+            $this->add_article();
         }
         else
         {
-            $this->load->model('Model_News_Articles');
-            $result = $this->Model_News_Articles->add_new_article();
 
-            if($result) {
+            $config['upload_path'] = './uploads/';
+            $config['allowed_types'] = 'gif|jpg|jpeg|png';
+            $config['encrypt_name'] = TRUE;
+            $this->load->library('upload', $config);
 
-                $this->session->set_flashdata('msg', '<div class="alert alert-primary text-center" role="alert"> Article Submitted Successfully! </div>');
-                redirect('News_Articles/articles');
+            if ( ! $this->upload->do_upload('userfile'))
+            {
+                $error = array('error' => $this->upload->display_errors());
+
+                $this->load->view('add_article', $error);
             }
             else {
-                $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center" role="alert"> Oops! Something went wrong </div>');
-                redirect('News_Articles/add_article');
+
+                $image_info = $this->upload->data();
+                $image_path = base_url("uploads/" . $image_info['raw_name'] . $image_info['file_ext']);
+                $data['image'] = $image_path;
+
+                $this->load->model('Model_News_Articles');
+
+                $result = $this->Model_News_Articles->add_new_article($data);
+                echo $result;
+
+                if ($result) {
+
+                    $this->session->set_flashdata('msg', '<div class="alert alert-primary text-center" role="alert"> Article Submitted Successfully! </div>');
+                    redirect('News_Articles/articles');
+                } else {
+                    $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center" role="alert"> Oops! Something went wrong </div>');
+                    redirect('News_Articles/add_article');
+                }
+
             }
 
         }
@@ -83,6 +105,7 @@ class News_Articles extends CI_Controller {
                 'title' => $result->title,
                 'details' => $result->details,
                 'timeStamp' => $result->timeStamp,
+                'image' => $result->image,
                 'userId' => $result->userId,
                 'username' => $result->username
 
@@ -112,6 +135,7 @@ class News_Articles extends CI_Controller {
                 'title' => $result->title,
                 'details' => $result->details,
                 'timeStamp' => $result->timeStamp,
+                'image' => $result->image,
                 'userId' => $result->userId,
                 'username' => $result->username
 

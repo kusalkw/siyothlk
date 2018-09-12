@@ -22,7 +22,7 @@
                 echo '<div class="row">';
                 echo '<div class="col-md-5">';
                 echo '<a href="#">';
-                echo '<img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">';
+                echo '<img class="img-fluid rounded mb-3 mb-md-0" src="'.$new->image.'" alt="image not found">';
                 echo '</a>';
                 echo '</div>';
                 echo '<div class="col-md-7">';

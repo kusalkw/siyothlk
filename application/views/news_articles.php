@@ -21,7 +21,7 @@
                 echo '<div class="row">';
                 echo '<div class="col-md-5">';
                 echo '<a href="#">';
-                echo '<img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">';
+                echo '<img class="img-fluid rounded mb-3 mb-md-0" src="'.$new->image.'" alt="image not found">';
                 echo '</a>';
                 echo '</div>';
                 echo '<div class="col-md-7">';
@@ -48,7 +48,7 @@
         ?>
 
         <div class="text-center">
-            <a class="btn btn-outline-danger" href="<?php echo base_url('index.php/News_Articles/news')?>">See More News</a>
+            <a class="btn btn-outline-danger" href="<?php echo base_url('index.php/News_Articles/news')?>">Go to News</a>
         </div>
 
     </div>
@@ -70,7 +70,7 @@
                 echo '<div class="row">';
                 echo '<div class="col-md-5">';
                 echo '<a href="#">';
-                echo '<img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">';
+                echo '<img class="img-fluid rounded mb-3 mb-md-0" src="'.$article->image.'" alt="image not found">';
                 echo '</a>';
                 echo '</div>';
                 echo '<div class="col-md-7">';
@@ -97,7 +97,7 @@
         ?>
 
         <div class="text-center">
-            <a class="btn btn-outline-danger" href="<?php echo base_url('index.php/News_Articles/articles')?>">See More Articles</a>
+            <a class="btn btn-outline-danger" href="<?php echo base_url('index.php/News_Articles/articles')?>">Go to Articles</a>
         </div>
 
     </div>

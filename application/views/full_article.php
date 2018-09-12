@@ -11,7 +11,7 @@
         <h3 class="my-4 text-center"> <?php echo $article['title']; ?> </h3>
 
         <div class="text-center">
-            <img class="img-fluid mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid mb-3 mb-md-0" src="<?php echo $article['image'] ?>" alt="Image not found">
         </div>
 
         <br>
