@@ -19,6 +19,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 
+    <link rel="stylesheet" href="<?php echo base_url('asset/home/assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('asset/home/assets/web/assets/mobirise-icons/mobirise-icons.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('asset/home/assets/tether/tether.min.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('asset/home/assets/bootstrap/css/bootstrap.min.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('asset/home/assets/bootstrap/css/bootstrap-grid.min.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('asset/home/assets/bootstrap/css/bootstrap-reboot.min.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('asset/home/assets/dropdown/css/style.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('asset/home/assets/animatecss/animate.min.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('asset/home/assets/theme/css/style.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('asset/home/assets/mobirise/css/mbr-additional.css" type="text/css') ?>">
+
+
     <title> Siyoth.lk </title>
 
 </head>
@@ -37,7 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/home'); ?>">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="<?php echo base_url('index.php/home'); ?>"> Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('index.php/home/bird_wiki') ?>">Bird WiKi</a>
@@ -83,18 +95,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </a>
             </li>
             <?php
-                if($this->session->userdata('username')) {
-                    echo "<li class=\"nav-item dropdown\">";
-                        echo "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n";
-                                echo $this->session->userdata('username');
-                        echo "</a>\n";
-                        echo "<div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n";
-                            echo "<a class=\"dropdown-item\" href=\"#\">Profile</a>\n";
-                            echo "<a class=\"dropdown-item\" href=\"" . base_url('index.php/login/user_logout');
-                            echo "\">Logout</a>\n";
-                       echo " </div>";
-                    echo "</li>";
-                }
+            if($this->session->userdata('username')) {
+                echo "<li class=\"nav-item dropdown\">";
+                echo "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n";
+                echo $this->session->userdata('username');
+                echo "</a>\n";
+                echo "<div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n";
+                echo "<a class=\"dropdown-item\" href=\"#\">Profile</a>\n";
+                echo "<a class=\"dropdown-item\" href=\"" . base_url('index.php/login/user_logout');
+                echo "\">Logout</a>\n";
+                echo " </div>";
+                echo "</li>";
+            }
             ?>
         </ul>
     </div>

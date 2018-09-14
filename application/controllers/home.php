@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Home extends CI_Controller {
 
 	public function index() {
-		$this->load->view('home');
+		$this->load->view('new_home');
 	}
 
 	public function login() {
@@ -28,6 +28,22 @@ class Home extends CI_Controller {
 	    if($result!=false) {
 
             $this->load->view('news_articles', $result);
+
+        }
+        else {
+            echo "Something went wrong !";
+        }
+
+    }
+
+    public function events() {
+
+        $this->load->model('Model_Events');
+        $result['events'] = $this->Model_Events->get_events();
+
+        if($result!=false) {
+
+            $this->load->view('events', $result);
 
         }
         else {
