@@ -1,5 +1,13 @@
 <?php include 'header.php' ?>
 
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="<?php echo base_url('index.php/home'); ?>"> Home </a></li>
+            <li class="breadcrumb-item active" aria-current="page"> News & Articles </li>
+        </ol>
+    </nav>
+
     <div class="jumbotron">
         <div class="container">
             <h1 class="display-3 text-center">News & Articles</h1>

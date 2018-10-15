@@ -1,5 +1,13 @@
 <?php include 'header.php' ?>
 
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="<?php echo base_url('index.php/home'); ?>"> Home </a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url('index.php/home/events') ?>"> Events </a></li>
+            <li class="breadcrumb-item active" aria-current="page"> <?php echo substr($event['title'], 0, 50) . "..."; ?></li>
+        </ol>
+    </nav>
+
     <div class="jumbotron">
         <div class="container">
             <h1 class="display-3 text-center">Events</h1>

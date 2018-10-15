@@ -1,10 +1,18 @@
 <?php include 'header.php' ?>
 
-<?php
-if(!$this->session->userdata('username')) {
-    redirect('Home/login');
-}
-?>
+    <?php
+    if(!$this->session->userdata('username')) {
+        redirect('Home/login');
+    }
+    ?>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="<?php echo base_url('index.php/home'); ?>"> Home </a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url('index.php/home/events') ?>"> Events </a></li>
+            <li class="breadcrumb-item active" aria-current="page"> Add New Event </li>
+        </ol>
+    </nav>
 
     <div class="jumbotron">
         <div class="container">
