@@ -15,8 +15,13 @@
                 
                 <p class="mbr-text pb-3 mbr-fonts-style display-5"><strong>
                     ~ A COMMUNITY CONSISTS WITH BIRD LOVERS ~</strong></p>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-secondary display-4" href="<?php echo base_url('index.php/home/bird_wiki')?>">BIRD WiKi</a>
-                    <a class="btn btn-md btn-white-outline display-4" href="<?php echo base_url('index.php/home/sign_up')?>">SIGN UP</a></div>
+                <div class="mbr-section-btn">
+                    <a class="btn btn-md btn-secondary display-4" href="<?php echo base_url('index.php/home/bird_wiki')?>">BIRD WiKi</a>
+                    <?php
+                        if(!$this->session->userdata('username')) {
+                            echo "<a class=\"btn btn-md btn-white-outline display-4\" href = \"<?php echo base_url('index.php/home/sign_up')?>\" > SIGN UP </a ></div >";
+                        }
+                    ?>
             </div>
         </div>
     </div>
