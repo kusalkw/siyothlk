@@ -18,6 +18,22 @@ class Model_News_Articles extends CI_Model{
 
     }
 
+    public function add_new_news($data) {
+
+        $data = array(
+
+            'title' => $this->input->post('title', TRUE),
+            'details' => $this->input->post('content', TRUE),
+            'timeStamp' => date ('Y-m-d H:i:s'),
+            'image' => $data['image'],
+            'userId' => $this->session->userdata('id')
+
+        );
+
+        return $this->db->insert('news', $data);
+
+    }
+
     public function get_articles() {
 
         $query = $this->db->query("SELECT article.id, article.title, article.details, article.timeStamp, article.image, article.userId, user.username FROM siyothlk.article JOIN user on article.userId = user.userId ORDER BY article.timeStamp DESC;");

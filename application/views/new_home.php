@@ -1,5 +1,5 @@
 
-<?php include 'home_header.php' ?>
+<?php $page = 'home'; include 'home_header.php' ?>
 
 <section class="engine"><a href="">Siyoth.lk</a></section><section class="cid-qTkA127IK8 mbr-fullscreen mbr-parallax-background" id="header2-1">
 

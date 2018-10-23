@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php $page = 'bird_wiki'; include 'header.php' ?>
 
 <h4 class = "text-center" id="wiki_header"> ~ Bird's WiKi ~ </h4>
 

@@ -49,22 +49,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/home'); ?>"> Home <span class="sr-only">(current)</span></a>
+                <?php
+                    if($this->session->userdata('admin_flag')==1) {
+                        if($page=='dashboard') {
+                            echo "<a class=\"nav-link active\" href=\"" . base_url('index.php/home/dashboard') . "\"> Dashboard <span class=\"sr-only\"></span></a>";
+                        }
+                        else {
+                            echo "<a class=\"nav-link\" href=\"" . base_url('index.php/home/dashboard') . "\"> Dashboard <span class=\"sr-only\"></span></a>";
+                        }
+                    }
+                    else {
+                        if($page=='home') {
+                            echo "<a class=\"nav-link active\" href=\"" . base_url('index.php/home') . "\"> Home <span class=\"sr-only\"></span></a>";
+                        }
+                        else {
+                            echo "<a class=\"nav-link\" href=\"" . base_url('index.php/home') . "\"> Home <span class=\"sr-only\"></span></a>";
+                        }
+                    }
+                ?>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/home/bird_wiki') ?>">Bird WiKi</a>
+                <a class="nav-link <?php if($page=='bird_wiki'){echo " active";}?>" href="<?php echo base_url('index.php/home/bird_wiki') ?>">Bird WiKi</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/home/news_and_articles') ?>">News & Articles</a>
+                <a class="nav-link <?php if($page=='news_articles'){echo " active";}?>" href="<?php echo base_url('index.php/home/news_and_articles') ?>">News & Articles</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Forum</a>
+                <a class="nav-link <?php if($page=='forum'){echo " active";}?>" href="#">Forum</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/home/events') ?>">Events</a>
+                <a class="nav-link <?php if($page=='events'){echo " active";}?>" href="<?php echo base_url('index.php/home/events') ?>">Events</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Sanctuaries</a>
+                <a class="nav-link <?php if($page=='sanctuaries'){echo " active";}?>" href="#">Sanctuaries</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -85,7 +102,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <ul class="navbar-nav navbar-right mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url("index.php/home/login") ?>">
+                <a class="nav-link <?php if($page=='login'){echo " active";}?>" href="<?php echo base_url("index.php/home/login") ?>">
                     <?php
                     if($this->session->userdata('username')==false) {
                         echo "Login";

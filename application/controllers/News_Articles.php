@@ -71,7 +71,6 @@ class News_Articles extends CI_Controller {
                 $data['image'] = $image_path;
 
                 $this->load->model('Model_News_Articles');
-
                 $result = $this->Model_News_Articles->add_new_article($data);
                 echo $result;
 

@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php $page = 'news_articles'; include 'header.php' ?>
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -69,5 +69,7 @@
         <hr>
 
     </div>
+
+
 
 <?php include 'footer.php' ?>

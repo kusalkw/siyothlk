@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php $page = 'events'; include 'header.php' ?>
 
     <?php
     if(!$this->session->userdata('username')) {

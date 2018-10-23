@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php $page = 'login'; include 'header.php' ?>
 
 <div class="container w-50 p-2">
 

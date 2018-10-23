@@ -15,6 +15,10 @@ class Home extends CI_Controller {
         $this->load->view('sign_up');
     }
 
+    public function dashboard() {
+        $this->load->view('admin/admin_dash_main');
+    }
+
     public function bird_wiki() {
         $this->load->view('wiki_home');
     }

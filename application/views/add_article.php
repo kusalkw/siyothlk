@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php $page = 'news_articles'; include 'header.php' ?>
 
     <?php
     if(!$this->session->userdata('username')) {
