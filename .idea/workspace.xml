@@ -2,249 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0af24c-0fe2-41c1-b03f-f7e524df00f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/application/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Bootstrap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/autoloader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/ci_testcase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/ci_testconfig.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/core/common.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/core/input.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/core/security.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/core/uri.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/core/utf8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/ci_test.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/config/mysql.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/config/mysqli.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/config/pdo/mysql.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/config/pdo/pgsql.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/config/pdo/sqlite.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/config/pgsql.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/config/sqlite.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/db/driver.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/drivers/mysql.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/drivers/mysqli.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/drivers/pdo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/drivers/postgre.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/drivers/sqlite.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/database/schema/skeleton.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/libraries/driver.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/libraries/encrypt.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/libraries/encryption.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/libraries/session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/libraries/table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/uploads/ci_logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/.buildinfo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/DCO.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_downloads/ELDocs.tmbundle.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_images/appflowchart.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_images/smile.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/basic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/ci-icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/comment-bright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/comment-close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/comment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/css/badge_only.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/css/citheme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/css/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/doctools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/down-pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/images/ci-icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/jquery-3.1.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/js/oldtheme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/js/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/pygments.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/searchtools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/underscore-1.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/underscore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/up-pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/_static/websupport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/changelog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/contributing/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/caching.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/call_function.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/configuration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/connecting.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/db_driver_reference.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/forge.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/helpers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/metadata.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/queries.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/query_builder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/transactions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/database/utilities.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/documentation/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/alternative_php.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/ancillary_classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/autoloader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/caching.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/cli.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/common_functions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/compatibility_functions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/controllers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/core_classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/creating_drivers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/creating_libraries.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/credits.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/drivers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/environments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/errors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/helpers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/hooks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/libraries.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/managing_apps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/models.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/profiling.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/requirements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/reserved_names.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/routing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/security.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/styleguide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/urls.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/views.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/general/welcome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/genindex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/array_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/captcha_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/cookie_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/date_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/directory_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/download_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/email_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/file_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/form_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/html_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/inflector_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/language_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/number_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/path_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/security_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/smiley_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/string_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/text_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/typography_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/url_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/helpers/xml_helper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/downloads.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/troubleshooting.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_120.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_130.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_131.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_132.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_133.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_140.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_141.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_150.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_152.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_153.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_154.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_160.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_161.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_162.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_163.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_170.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_171.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_172.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_201.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_202.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_203.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_210.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_211.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_212.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_213.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_214.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_220.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_221.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_222.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_223.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_300.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_301.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_302.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_303.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_304.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_305.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_306.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_310.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_311.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_312.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_313.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_314.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_315.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_316.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_317.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_318.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_319.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_b11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/installation/upgrading.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/benchmark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/caching.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/calendar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/config.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/email.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/encrypt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/encryption.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/file_uploading.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/form_validation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/ftp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/image_lib.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/input.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/javascript.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/language.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/loader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/migration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/pagination.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/parser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/security.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/trackback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/typography.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/unit_testing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/uri.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/user_agent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/xmlrpc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/libraries/zip.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/license.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/objects.inv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/overview/appflow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/overview/at_a_glance.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/overview/features.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/overview/getting_started.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/overview/goals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/overview/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/overview/mvc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/searchindex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/tutorial/conclusion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/tutorial/create_news_items.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/tutorial/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/tutorial/news_section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_guide/tutorial/static_pages.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/sanctuary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/home_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/home_header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -266,12 +28,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="8" />
+          <entry key="php" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="8" />
+          <entry key="PHP" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -280,70 +42,82 @@
       <usages-collector id="statistics.php.new.class" />
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.php.new.test" />
-      <usages-collector id="statistics.file.extensions.edit" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="63" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
-      <usages-collector id="statistics.file.types.edit" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="63" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/home.php">
+        <entry file="file://$PROJECT_DIR$/application/views/sanctuary.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1254" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/home_header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
+            <state relative-caret-position="44">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/add_event.php">
+        <entry file="file://$PROJECT_DIR$/application/views/home_header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="446">
+              <caret line="66" column="87" selection-start-line="66" selection-start-column="87" selection-end-line="66" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/news.php">
+        <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="437">
+              <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Events.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/News_Articles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-660" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Wiki.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1697" />
+            <state relative-caret-position="330">
+              <caret line="54" column="87" selection-start-line="54" selection-start-column="87" selection-end-line="54" selection-end-column="87" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+        <entry file="file://$PROJECT_DIR$/application/views/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1013" />
+            <state relative-caret-position="836">
+              <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="47" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -351,6 +125,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/views/sanctuary.php" />
+        <option value="$PROJECT_DIR$/application/controllers/home.php" />
+        <option value="$PROJECT_DIR$/application/views/header.php" />
+        <option value="$PROJECT_DIR$/application/views/home_header.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -362,9 +146,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -384,6 +168,18 @@
               <item name="siyothlk" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="siyothlk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="siyothlk" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="siyothlk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="siyothlk" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -392,7 +188,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -419,15 +215,16 @@
       <option name="presentableId" value="Default" />
       <updated>1540347335083</updated>
       <workItem from="1540347336573" duration="90000" />
-      <workItem from="1540355275530" duration="6532000" />
+      <workItem from="1540355275530" duration="7733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6622000" />
+    <option name="totallyTimeSpent" value="7823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12416107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -460,14 +257,6 @@
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1254" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1013" />
@@ -482,22 +271,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1697" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/home_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/add_event.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/News_Articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Wiki.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="54" column="87" selection-start-line="54" selection-start-column="87" selection-end-line="54" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/sanctuary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="66" column="87" selection-start-line="66" selection-start-column="87" selection-end-line="66" selection-end-column="87" />
         </state>
       </provider>
     </entry>

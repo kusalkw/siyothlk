@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a class="nav-link" href="<?php echo base_url('index.php/home/events') ?>">Events</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Sanctuaries</a>
+                <a class="nav-link" href="<?php echo base_url('index.php/home/sanctuary') ?>">Sanctuaries</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
