@@ -59,4 +59,8 @@ class Home extends CI_Controller {
         $this->load->view('sanctuary' , $this->data);
     }
 
+    public function forum(){
+	    $this->load->view('forum');
+    }
+
 }
