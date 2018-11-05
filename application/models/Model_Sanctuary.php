@@ -8,7 +8,7 @@
 
 class Model_Sanctuary extends CI_Model
 {
-    function getData()
+    function get_data()
     {
         $this->db->select('id , name , zone , details , image');
         $this->db->from('sanctuary');
@@ -16,7 +16,7 @@ class Model_Sanctuary extends CI_Model
         return $query->result();
     }
 
-    function getFullSanctuary($id)
+    function get_full_sanctuary($id)
     {
         $this->db->select('id , name , zone , details , bird_details , mapLink , image');
         $this->db->from('sanctuary');

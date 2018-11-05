@@ -16,7 +16,7 @@
             <div class="col-md-5">
                 <h3><?php echo $sanctuary->name;?></h3><small><?php echo $sanctuary->zone;?></small>
                 <p><?php echo $sanctuary->details;?></p>
-                <a class="btn btn-primary" href="<?php echo base_url('index.php/Sanctuary/viewFullSanctuaries')?><?php echo "?id=$sanctuary->id"?>">View More</a>
+                <a class="btn btn-primary" href="<?php echo base_url('index.php/Sanctuary/view_full_sanctuaries')?><?php echo "?id=$sanctuary->id"?>">View More</a>
             </div>
         </div>
         <!-- /.row -->

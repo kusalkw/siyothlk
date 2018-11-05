@@ -55,7 +55,7 @@ class Home extends CI_Controller {
     public function sanctuary() {
 
 	    $this->load->model('Model_Sanctuary');
-	    $this->data['sanctuaries'] = $this->Model_Sanctuary->getData();
+	    $this->data['sanctuaries'] = $this->Model_Sanctuary->get_data();
         $this->load->view('sanctuary' , $this->data);
     }
 

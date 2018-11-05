@@ -159,13 +159,13 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote><?php echo $sanctuaries['birdDetails'] ?></blockquote>
+                <blockquote><?php echo $sanctuaries['bird_details'] ?></blockquote>
             </div>
         </div>
     </div>
 </section>
 <section>
-    <iframe class="mymap" src="<?php echo $sanctuaries['mapLink'] ?>" width="80%" height="700"></iframe>
+    <iframe class="mymap" src="<?php echo $sanctuaries['map_link'] ?>" width="80%" height="700"></iframe>
 </section>
 <br><br>
 

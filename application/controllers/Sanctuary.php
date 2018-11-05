@@ -6,14 +6,13 @@
  * Time: 7:06 AM
  */
 
-class Sanctuary extends CI_Controller
-{
-    public function viewFullSanctuaries () {
+class Sanctuary extends CI_Controller {
+    public function view_full_sanctuaries () {
 
         $id = $this->input->get('id');
         $this->load->model('Model_Sanctuary');
 
-        $result = $this->Model_Sanctuary->getFullSanctuary($id);
+        $result = $this->Model_Sanctuary->get_full_sanctuary($id);
 
         if($result!=false) {
 
@@ -23,8 +22,8 @@ class Sanctuary extends CI_Controller
                 'name' => $result->name,
                 'zone' => $result->zone,
                 'details' => $result->details,
-                'birdDetails' => $result->bird_details,
-                'mapLink' => $result->mapLink,
+                'bird_details' => $result->bird_details,
+                'map_link' => $result->mapLink,
                 'image' => $result->image
             );
 
