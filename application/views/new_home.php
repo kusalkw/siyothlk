@@ -78,7 +78,7 @@
                     <p class="mbr-text mbr-fonts-style display-5">
                         <br>Get to know about the Bird Sanctuaries in <br>Sri Lanka<br></p>
                 </div>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-primary-outline display-4" href="">See Sancturies</a></div>
+                <div class="mbr-section-btn"><a class="btn btn-md btn-primary-outline display-4" href="<?php echo base_url('index.php/home/sanctuary') ?>">See Sancturies</a></div>
             </div>
         </div>
     </div>
@@ -123,7 +123,7 @@
                 <h3 class="mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style display-5"><p><strong>
                     </strong><strong>Ask it in our Forum section and get the opinions of the birders and experts in our Siyoth.lk community</strong></p></h3>
                 
-                <div class="mbr-section-btn align-left py-4"><a class="btn btn-danger display-4" href="">GO TO FORUM</a></div>
+                <div class="mbr-section-btn align-left py-4"><a class="btn btn-danger display-4" href="<?php echo base_url('index.php/home/forum') ?>">GO TO FORUM</a></div>
             </div>
         </div>
     </div>
