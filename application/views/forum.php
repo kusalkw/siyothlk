@@ -6,7 +6,6 @@
         <thead>
         <tr>
             <th scope="col">Categories</th>
-            <th scope="col">Description</th>
             <th scope="col">Topics</th>
         </tr>
         </thead>
@@ -14,13 +13,14 @@
         <?php foreach ($subcats as $Data2) {
             if ($Data1->cat_id == $Data2->parent_id) {?>
 
-
-
                 <tr>
-                    <td><?php echo $Data2->subcat_title;?></td>
-                    <td><?php echo $Data2->subcat_description;?></td>
-                    <td>0</td>
+                    <td><a href="<?php echo base_url('index.php/Forum/display_topics')?><?php echo "?cid=$Data1->cat_id"?><?php echo "&scid=$Data2->subcat_id"?>"><?php echo $Data2->subcat_title;?>
+                            <br>
+                    <?php echo $Data2->subcat_description;?></a></td>
+                    <td><a href="<?php echo base_url('index.php/Forum/display_topics')?><?php echo "?cid=$Data1->cat_id"?><?php echo "&scid=$Data2->subcat_id"?>"><?php echo 0;?></a></td>
+
                 </tr>
+
             <?php }?>
         <?php }?>
         </tbody>

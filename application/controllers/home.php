@@ -61,9 +61,13 @@ class Home extends CI_Controller {
 
     public function forum(){
 
+        $cid = $this->input->get('cid');
+        $scid = $this->input->get('scid');
+
         $this->load->model('Model_Forum');
         $result['cats'] = $this->Model_Forum->get_categories();
         $result['subcats'] = $this->Model_Forum->get_subcategories();
+        $result['topic_counts'] = $this->Model_Forum->get_topic_count($cid , $scid);
 
         if($result!=false) {
 
