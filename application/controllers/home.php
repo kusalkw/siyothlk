@@ -75,4 +75,15 @@ class Home extends CI_Controller {
         }
     }
 
+    public function get_photos(){
+
+        $this->load->model("Model_gallery");
+        $result['photos']=$this->Model_gallery->get_photo();
+
+        if($result!=false){
+            $this->load->view('Gallery',$result);
+
+        }
+    }
+
 }
